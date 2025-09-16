@@ -1,6 +1,6 @@
 name: simple_rsa3
 description: A plugin to make RSA encryption simple, right now it just only work on Android and ios.
-version: 2.0.4
+version: 2.0.5
 homepage: https://github.com/ochamodev/simple_rsa3
 
 environment:
