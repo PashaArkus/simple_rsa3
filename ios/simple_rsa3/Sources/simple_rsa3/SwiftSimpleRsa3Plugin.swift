@@ -2,10 +2,10 @@ import Flutter
 import SwiftyRSA
 import UIKit
 
-public class SwiftSimpleRsa3Plugin: NSObject, FlutterPlugin {
+public class SimpleRsa3Plugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
     let channel = FlutterMethodChannel(name: "simple_rsa3", binaryMessenger: registrar.messenger())
-    let instance = SwiftSimpleRsa3Plugin()
+    let instance = SimpleRsa3Plugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 
