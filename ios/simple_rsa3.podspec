@@ -13,7 +13,7 @@ A new Flutter plugin project.
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
+  s.source_files = 'simple_rsa3/Sources/simple_rsa3/**/*'
   s.dependency 'Flutter'
   s.dependency 'SwiftyRSA', "~> 1.7.0"
   s.platform = :ios, '11.0'
