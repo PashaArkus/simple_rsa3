@@ -37,3 +37,6 @@ android {
         minSdk = 24
     }
 }
+kotlin {
+    jvmToolchain(17)
+}
